@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet,Button, Text, View, Image, TextInput, TouchableOpacity, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
-import logo from './handy_2.jpg';
+// import logo from './handy_2.jpg';
 import Constants from 'expo-constants';
 import Routes from './Routes'
 import {useNavigation} from '@react-navigation/native'
-import { Botao }  from './componentes/botao'
+
 
 export default function Entrar() {
     const navigation = useNavigation();
@@ -25,7 +25,7 @@ export default function Entrar() {
     <StatusBar style="auto" backgroundColor="#0E0B16"/>
     <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.container}>
       <ScrollView style={{flex: 1}} contentContainerStyle={{alignItems: 'center'}}>
-      <Image source={logo} style={styles.imageComp}/>
+      {/* <Image source={logo} style={styles.imageComp}/> */}
       
       <View style={styles.formContainer}>
         <View style={styles.sectionContainer}>
@@ -33,7 +33,7 @@ export default function Entrar() {
               
             Login
           </Text>
-          <Botao texto="Esse é o texxto do botão"/>
+          
 
           <TextInput onChangeText={setLogin} placeholder="Digite o seu Usuario" keyboardType="email-address" style={styles.inputStyle} />
 

@@ -1,10 +1,10 @@
 
 import React from 'react';
 import {Image, View, TextInput,Text,Button,SafeAreaView,Alert  } from 'react-native';
-import festahome from './festa_home.jpg';
-import live from './live.jpg';
-import formatura from './formatura.jpg';
-import batismo from './batismo.jpg';
+// import festahome from './festa_home.jpg';
+// import live from './live.jpg';
+// import formatura from './formatura.jpg';
+// import batismo from './batismo.jpg';
 import {useNavigation} from '@react-navigation/native'
 
 
@@ -14,9 +14,9 @@ return (
   <View style={{flex: 1}}>
     <View style={{height:35, backgroundColor: '#483d8b'}} />
     <View style={{height:300, backgroundColor: '#483d8b'}}> 
-      <Image source={festahome}
+      {/* <Image source={festahome}
         style={{width:330, height:220, padding:'height', alignContent: 'center',marginTop:11,marginLeft:16}}>
-      </Image>
+      </Image> */}
     </View>
     
     <View style={{flex: 1,alignItems:'center', backgroundColor: '#483d8b'}}>
@@ -34,21 +34,21 @@ return (
     
 
     <View>
-      <Image source={live}
+      {/* <Image source={live}
         style={{width:70, height:70,marginLeft:250,marginTop:20}}>
-      </Image>  
+      </Image>   */}
     </View> 
     
     <View>
-      <Image source={formatura}
+      {/* <Image source={formatura}
         style={{width:56, height:56,marginLeft:0,marginTop:-60}}>
-      </Image>  
+      </Image>   */}
     </View> 
 
     <View>
-      <Image source={batismo}
+      {/* <Image source={batismo}
         style={{width:56, height:56,marginRight:270,marginTop:-60}}>
-      </Image>  
+      </Image>   */}
     </View>    
            
 

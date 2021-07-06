@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Image, View, TextInput,Text,Button,SafeAreaView,Alert  } from 'react-native';
-import sobrenos from './Team_page_rafiki.jpg';
+// import sobrenos from './Team_page_rafiki.jpg';
 import {useNavigation} from '@react-navigation/native'
 import Routes from './Routes'
 
@@ -26,9 +26,9 @@ return (
       </View>
     </View>   
     <View style={{height:300, backgroundColor: '#483d8b'}}> 
-      <Image source={sobrenos}
+      {/* <Image source={sobrenos}
         style={{width:330, height:250, padding:'height', alignContent: 'center',marginTop:-250,marginLeft:20}}>
-      </Image>
+      </Image> */}
       <View style={{marginTop:35,marginLeft:220}}>
     <Button title = 'Voltar' onPress={() => navigation.navigate('Menus')}/>  
     </View>

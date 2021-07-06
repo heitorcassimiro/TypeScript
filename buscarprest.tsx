@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet,Button, Text, View, Image, TextInput, TouchableOpacity, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
-import logo from './logo.jpg';
+// import logo from './logo.jpg';
 import Constants from 'expo-constants';
 import Routes from './Routes'
 import {useNavigation} from '@react-navigation/native'
